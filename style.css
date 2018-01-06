@@ -23,6 +23,7 @@ html {
     text-align: center;
     align-items:center;
     border: 1px white groove;
+    cursor: pointer;
   
 
     transition:
@@ -70,4 +71,11 @@ html {
   .panel.open {
     flex: 5;
     font-size: 40px;
+    color: palevioletred;
+  }
+  .footer {
+      font-size: 12px;
+      margin: 0;
+      bottom: 0;
+      color: white;
   }
