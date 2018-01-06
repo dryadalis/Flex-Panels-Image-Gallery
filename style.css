@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     background:#ffc600;
-    font-family: sans-serif;
+    font-family: Indie Flower;
     font-size: 20px;
     font-weight: 200;
   }
@@ -22,14 +22,15 @@ html {
     color:white;
     text-align: center;
     align-items:center;
+    border: 1px white groove;
   
 
     transition:
       font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
       flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
       background 0.2s;
-      
-    font-size: 20px;
+
+    font-size: 15px;
     background-size:cover;
     background-position:center;
     flex: 1;
@@ -37,11 +38,11 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
-  .panel2 { background-image:url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500); }
-  .panel3 { background-image:url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d); }
-  .panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
-  .panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
+  .panel1 { background-image:url(https://images.unsplash.com/photo-1504006833117-8886a355efbf?auto=format&fit=crop&w=750&q=80); }
+  .panel2 { background-image:url(https://images.unsplash.com/photo-1495248449765-7ec3db458549?auto=format&fit=crop&w=750&q=80); }
+  .panel3 { background-image:url(https://images.unsplash.com/photo-1485466799797-74ecb5ef351b?auto=format&fit=crop&w=750&q=80); }
+  .panel4 { background-image:url(https://images.unsplash.com/photo-1506305269769-53a5714a93be?auto=format&fit=crop&w=345&q=80); }
+  .panel5 { background-image:url(https://images.unsplash.com/photo-1463062511209-f7aa591fa72f?auto=format&fit=crop&w=750&q=80); }
 
   /* Flex Items */
   .panel > * {
@@ -59,12 +60,12 @@ html {
   .panel.open-active > *:last-child { transform: translateY(0); }
   .panel p {
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: Indie Flower;
     text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
     font-size: 2em;
   }
   .panel p:nth-child(2) {
-    font-size: 4em;
+    font-size: 3.5em;
   }
   .panel.open {
     flex: 5;
